@@ -17,5 +17,4 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # luci-theme-infinityfreedom
 # passwall
-echo 'src-git smartdns https://github.com/pymumu/smartdns' >>feeds.conf.default
-echo 'src-git luci-app-smartdns https://github.com/pymumu/luci-app-smartdns' >>feeds.conf.default
+
