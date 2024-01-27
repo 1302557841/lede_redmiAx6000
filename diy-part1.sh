@@ -17,9 +17,8 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # luci-theme-infinityfreedom
 # passwall
-sed -i -e '/^#/d' feeds.conf.default
-sed -i '$a src-git smartdns https://github.com/pymumu/smartdns' feeds.conf.default
-sed -i '$a src-git luci-app-smartdns https://github.com/pymumu/luci-app-smartdns' feeds.conf.default
+echo 'src-git smartdns https://github.com/pymumu/smartdns' >>feeds.conf.default
+echo 'luci-app-smartdns https://github.com/pymumu/luci-app-smartdns' >>feeds.conf.default
 
 # 替换默认主题
 rm -rf package/lean/luci-theme-argon 
